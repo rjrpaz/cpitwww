@@ -1,0 +1,17 @@
+<HTML>
+<HEAD><TITLE>Bienvenido!</TITLE></HEAD>
+<BODY>
+Esta es la ultima referencia de  CGI. Se puede bajar clickeando <A
+HREF="2.jpg">aqui</A>.
+El tama&ntildeo del archivo es de <!--#fsize file="2.jpg"--> bytes, y fue
+modificada por &uacuteltima vez <!--#flastmod file="2.jpg"-->
+<P>
+Bienvenido <!--#echo var="REMOTE_USER"-->. Aqui hay alguna informacion sobre
+usted:
+<PRE>
+<!--#exec cmd="/bin/finger $REMOTE_USER@REMOTE_HOST"-->
+</PRE>
+<PRE>
+<!--#exec cmd="/bin/df"-->
+</PRE>
+</BODY></HTML>

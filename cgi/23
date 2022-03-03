@@ -1,0 +1,11 @@
+#!/usr/bin/perl
+
+print "Content-type: text/html", "\n\n";
+
+$remote_address = $ENV{'REMOTE_ADDR'};
+$referral_address = $ENV{'HTTP_REFERER'};
+
+print "Hola, usuario de $remote_address!", "\n";
+print "El ultimo sitio que visitaste es:  $referral_address!", "\n";
+
+exit (0);

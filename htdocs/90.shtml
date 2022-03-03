@@ -1,0 +1,17 @@
+<HTML>
+<HEAD><TITLE>Bienvenido!</TITLE></HEAD>
+<BODY>
+<H1>Bienvenido a mi server en <!--#echo var="SERVER_NAME"-->...</H1>
+<HR>
+Querido usuario de <!--#echo var="REMOTE_HOST"-->,
+<P>
+El tiempo GMT actual es: <!--#echo var="DATE_GMT"-->
+<P>
+El documento que esta viendo se titula: <!--#echo var="DOCUMENT_NAME"-->
+<P>
+Podemos acceder a el colocando el siguiente URL: <!--#echo var="DOCUMENT_URI"-->
+<P>
+La ultima modificacion del documento fue el dia: <!--#echo var="LAST_MODIFIED"-->
+<HR>
+<ADDRESS>Cacho Carmona (<!--#echo var="DATA_LOCAL"-->)</ADDRESS>
+</BODY></HTML>

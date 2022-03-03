@@ -1,0 +1,7 @@
+<HTML>
+<HEAD><TITLE>Bienvenido!</TITLE></HEAD>
+<BODY>
+Calcula el tiempo pasado desde el 19 de julio de 1972.
+<P> 
+han pasado <!--#exec cmd="/var/lib/httpd/prueba-cgi/98.pl 7/19/72"--> dias.
+</BODY></HTML>

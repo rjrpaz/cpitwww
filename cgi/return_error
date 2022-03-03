@@ -1,0 +1,18 @@
+sub return_error
+{
+	local ($status, $keyword, $message) = @_;
+
+	print "Content-type: text/html", "\n";
+	print "Status: ", $status, " ", $keyword, "\n\n";
+
+	print <<End_of_Error;
+
+<title>CGI Program - Unexpected Error</title>
+<h1>$keyword</h1>
+<hr>$message</hr>
+Please contact $webmaster for more information.
+
+End_of_Error
+
+	exit (1);
+}

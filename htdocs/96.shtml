@@ -1,0 +1,5 @@
+<HTML>
+<HEAD><TITLE>Bienvenido!</TITLE></HEAD>
+<BODY>
+Links aleatorios <!--#exec cgi="/cgi/96.pl"--> veces.
+</BODY></HTML>

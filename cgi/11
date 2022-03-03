@@ -1,0 +1,14 @@
+#!/usr/bin/perl
+
+print "Content-type: text/plain", "\n\n";
+
+print "Bienvenidos a mi pagina", "\n";
+
+$remote_host = $ENV{'REMOTE_HOST'};
+print "Me estas visitando desde ", $remote_host, ". ", "\n";
+
+$uptime = `/usr/bin/uptime`;
+($load_average) = ($uptime =~ /average: ([^,]*)/);
+
+print "La carga promedio del sistema es: ", $load_average, ".", "\n";
+exit (0);

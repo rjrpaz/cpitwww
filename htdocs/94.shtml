@@ -1,0 +1,5 @@
+<HTML>
+<HEAD><TITLE>Bienvenido!</TITLE></HEAD>
+<BODY>
+Esta pagina fue accedida <!--#exec cgi="/cgi/95.pl"--> veces.
+</BODY></HTML>
